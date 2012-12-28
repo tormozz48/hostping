@@ -6,14 +6,14 @@
            version="2.5">
 	
     <display-name>timer</display-name>
-
-	<listener>
-	    <listener-class>com.tormozz.hostping.PingListener</listener-class>
-	</listener>
     
     <servlet>
         <servlet-name>initServlet</servlet-name>
         <servlet-class>com.tormozz.hostping.InitServlet</servlet-class>
+        <init-param>
+			<param-name>log4j-properties-location</param-name>
+			<param-value>WEB-INF/log4j.properties</param-value>
+		</init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
 

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <start-time>10</start-time>
-    <repeat-interval>30</repeat-interval>
+    <repeat-interval>300</repeat-interval>
     <hosts>
-        <host>hostping.j.rsnx.ru</host>
-   		<host>communal.j.rsnx.ru</host>
+        <host>hostping.herokuapp.com</host>
     	<host>homefinance.herokuapp.com</host>
     	<host>daryatoys.herokuapp.com</host>   	       
     </hosts>
